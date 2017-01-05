@@ -1,0 +1,25 @@
+p:first-letter {
+  margin-left: 3em;
+}
+
+body {
+  font-family: arial;
+  font-size: 20px;
+}
+
+button:focus {
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
+  transition-duration: 0s;
+  -webkit-transition-duration: 0s;
+  background-color: #1287A8;
+}
+
+.fa-rotate-45 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
