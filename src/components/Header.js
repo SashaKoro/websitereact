@@ -2,7 +2,7 @@ import React from 'react';
 import {Link , IndexLink} from 'react-router';
 import styled from 'styled-components';
 
-const Div = styled.div`
+const HeaderDiv = styled.div`
   background-color: #555F61;
   height: 100px;
   position: fixed;
@@ -20,7 +20,7 @@ const Logo = styled.span`
   border-bottom: 15px solid transparent;
 `;
 
-const Button = styled.button`
+const HeaderButton = styled.button`
   margin-top: 38px;
   margin-right: 9px;
   height: 40px;
@@ -44,12 +44,12 @@ const Button = styled.button`
 
 const Header = () => {
   return (
-    <Div>
-      <Logo />
-      <Button><IndexLink to="/">About</IndexLink></Button>
-      <Button><Link to="/projects">Projects</Link></Button>
-      <Button><Link to="/blog">Blog</Link></Button>
-    </Div>
+    <HeaderDiv className="HeaderDiv">
+      <Logo className="Logo" />
+      <IndexLink to="/"><HeaderButton className="HeaderButton">About</HeaderButton></IndexLink>
+      <Link to="/projects"><HeaderButton className="HeaderButton ProjectsButton">Projects</HeaderButton></Link>
+      <Link to="/blog"><HeaderButton className="HeaderButton">Blog</HeaderButton></Link>
+    </HeaderDiv>
   );
 };
 

@@ -6,8 +6,9 @@ import routes from './routes';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.css';
 
+const BackToTop = () => window.scrollTo(0, 0);
 
 render (
-  <Router history={browserHistory} routes={routes} />,
+  <Router onUpdate={BackToTop} history={browserHistory} routes={routes} />,
   document.getElementById('app')
 );

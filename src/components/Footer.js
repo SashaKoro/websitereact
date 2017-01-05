@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Div = styled.div`
+const SiteFooter = styled.div`
   height: 85px;
   background: #555F61;
   width: 100%;
@@ -22,6 +22,7 @@ const Anchor = styled.a`
   },
   
   &:focus {
+    color: #202020
     outline-color: black;
     outline-style: solid;
     outline-width: 2px;
@@ -40,14 +41,14 @@ const Moto = styled.i`
 
 const Footer = () => {
   return (
-    <Div>
+    <SiteFooter className="SiteFooter">
         <ContactsDiv>
-          <Anchor><Icon className="fa">&#xf199;</Icon></Anchor>
-          <Anchor><Icon className="fa">&#xf08c;</Icon></Anchor>
-          <Anchor><Icon className="fa">&#xf09b;</Icon></Anchor>
+          <Anchor href="mailto:balaskorotkov@gmail.com" ><Icon className="fa">&#xf199;</Icon></Anchor>
+          <Anchor target="_blank" href="https://www.linkedin.com/in/alexandre-korotkov-bb492b129" ><Icon className="fa">&#xf08c;</Icon></Anchor>
+          <Anchor target="_blank" href="https://github.com/SashaKoro" ><Icon className="fa">&#xf09b;</Icon></Anchor>
         </ContactsDiv>
-        <Moto className="fa">&#xf21c;</Moto>
-    </Div>
+        <Moto className="Moto fa">&#xf21c;</Moto>
+    </SiteFooter>
   );
 };
 

@@ -1,3 +1,5 @@
+
+
 p:first-letter {
   margin-left: 3em;
 }
@@ -23,3 +25,297 @@ button:focus {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+@media only screen and (max-width: 1200px) {
+  .Logo {
+    margin-right: 40%;
+  }
+  .BlogDiv {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Logo {
+    margin-right: 25%;
+  }
+  .BlogDiv {
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+  .ProjectHeader {
+    font-size: 32px;
+  }
+  .fa-calculator {
+    font-size: 160px;
+  }
+  .fa-id-badge {
+    font-size: 160px;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+  .fa-gears {
+    font-size: 160px;
+  }
+  .fa-cloud {
+    font-size: 160px;
+  }
+  .fa-life-bouy {
+    font-size: 160px;
+  }
+  .ProjectWrap {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .Logo {
+    margin-right: 12%;
+  }
+  .HeaderButton {
+    width: 105px;
+  }
+  .BlogDiv {
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 20px;
+  }
+  .IntroParagraph {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .SkillList {
+    margin-right: 6%;
+  }
+  .ProjectHeader {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 28px;
+  }
+  .ProjectWrap {
+    display: none;
+  }
+  .HiddenProjects {
+    display: block;
+  }
+  .CloudWrap {
+    margin-right: 0px;
+  }
+  .fa-calculator {
+    font-size: 220px;
+  }
+  .fa-id-badge {
+    font-size: 220px;
+    margin-top: 30px;
+  }
+  .fa-gears {
+    font-size: 220px;
+    margin-top: 30px;
+  }
+  .fa-cloud {
+    font-size: 220px;
+    margin-top: 30px;
+  }
+  .fa-life-bouy {
+    font-size: 220px;
+    margin-top: 30px;
+  }
+  .BottomFigure {
+    margin-bottom: 75px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .Logo {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .HeaderButton {
+    width: 90px;
+  }
+  .BlogDiv {
+    font-size: 18px;
+  }
+  .IntroParagraph {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .IntroHeader {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .SkillList {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .ProjectHeader {
+    font-size: 24px;
+  }
+  .BlogHeader {
+    padding-top: 25px;
+  }
+  .BlogDate {
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .Logo {
+    margin-right: 4%;
+    margin-left: 4%;
+    border-top: 20px solid #1496BB;
+    border-right: 20px solid #F26D21;
+    border-left: 20px solid #F26D21;
+    border-bottom: 10px solid transparent;
+  }
+  .HeaderButton {
+    width: 80px;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .BlogDiv {
+    font-size: 16px;
+    padding-top: 80px;
+  }
+  .IntroParagraph {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 40px;
+  }
+  .TheProjects {
+    padding-top: 100px;
+  }
+  .IntroHeader {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .SkillList {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 50px;
+  }
+  .fa-calculator {
+    font-size: 200px;
+  }
+  .fa-id-badge {
+    font-size: 200px;
+  }
+  .fa-gears {
+    font-size: 200px;
+  }
+  .fa-cloud {
+    font-size: 200px;
+  }
+  .fa-life-bouy {
+    font-size: 200px;
+  }
+  .HeaderDiv {
+    height: 60px;
+  }
+  .ProjectHeader {
+    padding-bottom: 50px;
+  }
+  .ProjectsButton {
+    text-align: left;
+  }
+  .Self {
+    margin-right: 18%;
+  }
+  .AboutDiv {
+    padding-top: 80px;
+  }
+  .BlogHeader {
+    padding-top: 0px;
+  }
+  .BlogDate {
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+  .Moto {
+    display: none;
+  }
+  .SiteFooter {
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .Logo {
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .HeaderButton {
+    width: 68px;
+  }
+  .IntroParagraph {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .SkillList {
+    margin-bottom: 0px;
+  }
+  .ProjectHeader {
+    font-size: 24px;
+  }
+  .BlogHeader {
+    padding-top: 25px;
+  }
+  .BlogDate {
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  .Self {
+    float: left;
+  }
+}
+@media only screen and (max-height: 800px) {
+  .BlogHeader {
+    padding-top: 30px;
+  }
+  .BlogDate {
+    padding-top: 45px;
+    padding-bottom: 16px;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .TheProjects {
+    padding-top: 65px;
+  }
+  .ProjectHeader {
+    padding-bottom: 30px;
+  }
+  .BlogHeader {
+    padding-top: 0px;
+  }
+  .BlogDiv {
+    padding-top: 80px;
+    font-size: 18px;
+  }
+  .BlogDate {
+    padding-top: 20px;
+    padding-bottom: 8px;
+  }
+  .HeaderDiv {
+    height: 60px;
+  }
+  .Logo {
+    border-top: 20px solid #1496BB;
+    border-right: 20px solid #F26D21;
+    border-left: 20px solid #F26D21;
+    border-bottom: 10px solid transparent;
+  }
+  .HeaderButton {
+    margin-top: 15px;
+    margin-right: 9px;
+    height: 40px;
+    width: 105px;
+    max-width: 120px;
+  }
+  .Moto {
+    display: none;
+  }
+  .SiteFooter {
+    height: 55px;
+  }
+}
+
+
+

@@ -27,6 +27,7 @@ export default {
         loaders: [
             {test: /\.js$/, include: path.join(__dirname, 'src'), loaders: ['babel']},  // Grabs JS files and puts them through Babel
             {test: /\.(jpg|png)$/, loader: 'url-loader?limit=10000'},
+            {test: /\.ico$/, loader: 'file-loader?name=[name].[ext]'},
             {test: /(\.css)$/, loaders: ['style', 'css']},       // CSS file loading
             {test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: 'file'},          // Bootstrap font file handling
             {test: /\.(woff|woff2)$/, loader: 'url?prefix=font/&limit=5000'},

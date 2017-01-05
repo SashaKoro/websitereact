@@ -2,6 +2,7 @@ import React, {PropTypes, Component} from 'react';
 import styled from 'styled-components';
 import Header from './Header';
 import Footer from './Footer';
+require('../images/favicon.ico');
 
 const Div = styled.div`
   display: flex;
